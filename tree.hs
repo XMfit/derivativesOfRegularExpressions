@@ -21,3 +21,10 @@ treeElem (Node a left right) x
    | x == a = True
    | x < a = treeElem left x
    | x > a = treeElem right x
+
+
+operators = ["∅", "ε", "|", "+", "*", "?", "@"]
+
+
+isOperator :: (Eq a) => a -> [a] -> Bool
+isOperator a list = a `elem` list
