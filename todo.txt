@@ -1,0 +1,12 @@
+
+
+Need to do:
+
+String to rose tree
+Fix up some cases with derive.hs
+?a -> should only accept "", "a". Currently accepts "aa, ..."
+(a*)+ -> should accept "", "a", "aa...". Doesn't accept ""
+
+Input processing still needs to do be done.
+
+Can't use do (not allowed in project specification), must use interact.
