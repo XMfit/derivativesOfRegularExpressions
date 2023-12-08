@@ -1,12 +1,9 @@
-
-
-Need to do:
-
-String to rose tree
-Fix up some cases with derive.hs
+Done:
+Most of derivations, need to fix up some niche cases:
 ?a -> should only accept "", "a". Currently accepts "aa, ..."
 (a*)+ -> should accept "", "a", "aa...". Doesn't accept ""
 
-Input processing still needs to do be done.
-
-Can't use do (not allowed in project specification), must use interact.
+Parse string to rose tree Done
+Parse rose tree to Regex
+Derive from Regex
+Sanitize the 2nd part of the input when its epsilon to just be ""
