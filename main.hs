@@ -47,7 +47,7 @@ deriv (ZeroOrMore r) c = deriv r c `Concat` ZeroOrMore r
 deriv (Or r s) c = deriv r c `Or` deriv s c 
 -- Need revising
 deriv (OneOrMore r) c = deriv r c `Concat` ZeroOrMore r
-deriv (Optional r) c = (deriv r c `Concat` ZeroOrMore r) `Or` deriv r c
+deriv (Optional r) c = EmptyString `Or` deriv r c
 
 
 match :: Regex -> String -> Bool

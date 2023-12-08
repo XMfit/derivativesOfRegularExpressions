@@ -1,0 +1,11 @@
+a+         b
+a?         ε
+a?         a
+a?         aa
+a+         ε
+a+         aaaa
+a*+        ε
+a*+        aaa
+a+*        ε
+a+*        aaa 
+a+*        a
