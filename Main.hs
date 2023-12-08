@@ -1,6 +1,6 @@
 {-
  - Author: Thomas Johnson, thomasjohnso2020@my.fit.edu
- - Author: Angel Star, e-mail address
+ - Author: Angel Star, astar2020@my.fit.edu
  - Course: CSE 4250, Fall 2023
  - Project: Proj4, deriveatives of Regular Expressions
  - Language implementation: Glasgow Haskell Compiler, Version 8.8.4

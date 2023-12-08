@@ -1,9 +1,0 @@
-Done:
-Most of derivations, need to fix up some niche cases:
-?a -> should only accept "", "a". Currently accepts "aa, ..."
-(a*)+ -> should accept "", "a", "aa...". Doesn't accept ""
-
-Parse string to rose tree Done
-Parse rose tree to Regex
-Derive from Regex
-Sanitize the 2nd part of the input when its epsilon to just be ""
